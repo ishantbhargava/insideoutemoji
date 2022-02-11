@@ -383,7 +383,7 @@ export default function App() {
     var userInput = event.target.value;
     var meaning = emojiDictionary[userInput];
     if (meaning === undefined) {
-      meaning = "we don't have this in our datbase";
+      meaning = "we don't have this in our database";
     }
 
     setMeaning(meaning);
